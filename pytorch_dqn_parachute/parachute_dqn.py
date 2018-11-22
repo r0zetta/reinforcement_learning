@@ -206,13 +206,6 @@ def train():
                 json.dump(turns_average_history, f, indent=4)
             with open("move_history.json", "w") as f:
                 json.dump(move_history, f, indent=4)
-# Adaptive exploration: if score has trended down, add a small amount to epsilon
-            if score_average < score_average_snapshot:
-                if epsilon < 0.50:
-                    epsilon = 0.50
-            score_average_snapshot = score_average
-
-
 
 if len(sys.argv) > 1:
     seed = sys.argv[1]
