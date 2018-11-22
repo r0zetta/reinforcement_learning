@@ -155,6 +155,8 @@ class game:
     def sample_random_action(self):
         return random.randint(0, len(self.moves)-1)
 
+    # This is a work in progress that I haven't had time to finish.
+    # It does't do anything meaningful right now
     def move_ai(self):
         scan_x = 0
         scan_y = self.state_height
