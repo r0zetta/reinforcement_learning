@@ -32,8 +32,7 @@ class DQN(nn.Module):
         x3 = F.relu(self.lin3(x2))
         x4 = self.drop(x3)
         x5 = self.out(x4)
-        x6 = F.softmax(x5)
-        return x6
+        return x5
 
 def print_game_state(state):
     printable = ""
