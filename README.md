@@ -16,7 +16,8 @@ Included are a few other games, which are all work in progress.
 - multiply is a really simple experiment that attempts to learn the times tables by guessing answers
 
 keras_HER is a keras implementation of Hindsight Experience Replay (since I couldn't find one when I looked)
-pytorch_test_GRU is a scratch jupyter notebook I have been using to play with pytorch and creating random neural net architectures.
+
+pytorch_test_GRU is a scratch jupyter notebook I have been using to play with pytorch and creating various neural net architectures.
 
 pytorch_question_answer implements a game that presents the player with a series of statements and a question, that can be answered by reading the statements. I am fully aware that there are neural reasoning architectures for solving these types of games, but out of curiosity, I've been looking at whether a more generic reinforcement learning approach might just magically work for this type of problem. This approach only seems to get about 20% of the answers right.
 
